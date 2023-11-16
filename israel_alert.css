@@ -1,0 +1,23 @@
+.y3-center{
+    text-align: center;
+    width: 100%;
+}
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter{float: right;}
+.w3-bar {
+    direction: rtl;
+    text-align: right;
+    /* float: right; */
+}
+.w3-bar .w3-bar-item{float: right;    width: 32%;}
+body > div:nth-child(4){margin-bottom: 15px;}
+#about span{direction: rtl;}
+#about{    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
